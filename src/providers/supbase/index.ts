@@ -2,7 +2,7 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import { migrate } from "drizzle-orm/postgres-js/migrator";
 import postgres from "postgres";
 import * as dotenv from "dotenv";
-import * as schema from "../../../migrations/schema";
+import * as schema from "./migrations/schema";
 
 dotenv.config({ path: ".env" });
 
