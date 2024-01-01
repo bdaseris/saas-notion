@@ -1,10 +1,9 @@
-"use client";
-
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import LoginForm from "./_components/form";
 
 export default function LoginPage() {
-  const router = useRouter();
-  const [submitError, setSubmitError] = useState("");
-  return <main>Login page</main>;
+  return (
+    <>
+      <LoginForm />
+    </>
+  );
 }
