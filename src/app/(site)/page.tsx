@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import TitleSection from "./_components/title-section";
 import Image from "next/image";
 
-import { CLIENTS, PRICING_CARDS, PRICING_PLANS, USERS } from "@/lib/constants";
+import { CLIENTS, PRICING_CARDS, PRICING_PLANS, USERS } from "@/libs/constants";
 
 import { randomUUID } from "crypto";
 import { twMerge } from "tailwind-merge";
@@ -10,7 +10,7 @@ import clsx from "clsx";
 import CardAvatar from "./_components/card-avatar";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { CardContent, CardDescription, CardTitle } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
+import { cn } from "@/libs/shadcn/utils";
 
 import AppBanner from "../../../public/app-banner.png";
 import CalBanner from "../../../public/cal-banner.png";

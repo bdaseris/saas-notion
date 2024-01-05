@@ -2,7 +2,7 @@
 
 import { createRouteHandlerClient } from "@supabase/auth-helpers-nextjs";
 import { cookies } from "next/headers";
-import type { LoginFormSchemaType } from "@/lib/zod/forms";
+import type { LoginFormSchemaType } from "@/libs/zod/forms";
 
 export async function actionLoginUser({
   email,

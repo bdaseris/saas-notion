@@ -4,7 +4,7 @@ import {
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
+import { cn } from "@/libs/shadcn/utils";
 
 type CardTestimonialProps = React.ComponentProps<typeof Card> & {
   cardHeader?: React.ReactNode;

@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import clsx from "clsx";
 import { useForm } from "react-hook-form";
-import { SignUpFormSchema, type SignUpFormSchemaType } from "@/lib/zod/forms";
+import { SignUpFormSchema, type SignUpFormSchemaType } from "@/libs/zod/forms";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";
 import Image from "next/image";
@@ -21,7 +21,7 @@ import { Button } from "@/components/ui/button";
 import Loader from "@/components/global/loader";
 import { MailCheckIcon } from "lucide-react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { actionSignUpUser } from "@/providers/supbase/actions";
+import { actionSignUpUser } from "@/providers/supabase/actions";
 
 export default function SignupForm() {
   const router = useRouter();

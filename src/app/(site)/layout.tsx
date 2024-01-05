@@ -1,13 +1,13 @@
-import Header from "./_components/header";
+import SiteHeader from "./_components/header";
 
 interface HomeLayoutProps {
   children: React.ReactNode;
 }
 
-export default function HomeLayout({ children }: HomeLayoutProps) {
+export default function SiteLayout({ children }: HomeLayoutProps) {
   return (
     <main>
-      <Header />
+      <SiteHeader />
       {children}
     </main>
   );

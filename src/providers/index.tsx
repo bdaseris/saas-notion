@@ -1,3 +1,4 @@
+import { Toaster } from "@/components/ui/sonner";
 import ThemeProvider from "./theme";
 
 export default function AppProvider({
@@ -14,6 +15,7 @@ export default function AppProvider({
       storageKey="saas-theme"
     >
       {children}
+      <Toaster />
     </ThemeProvider>
   );
 }

@@ -3,5 +3,5 @@ interface DashboardLayoutProps {
 }
 
 export default function DashboardLayout({ children }: DashboardLayoutProps) {
-  return <main className="flex over-hidden h-screen">{children}</main>;
+  return <div className="">{children}</div>;
 }

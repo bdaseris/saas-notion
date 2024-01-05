@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { cn } from "@/libs/shadcn/utils";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -63,7 +63,7 @@ const components: ComponentType[] = [
   },
 ];
 
-export default function Header() {
+export default function SiteHeader() {
   const [path, setPath] = useState("#products");
 
   return (

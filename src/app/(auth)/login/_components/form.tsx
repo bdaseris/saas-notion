@@ -18,8 +18,8 @@ import Image from "next/image";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Loader from "@/components/global/loader";
-import { LoginFormSchema, type LoginFormSchemaType } from "@/lib/zod/forms";
-import { actionLoginUser } from "@/providers/supbase/actions";
+import { LoginFormSchema, type LoginFormSchemaType } from "@/libs/zod/forms";
+import { actionLoginUser } from "@/providers/supabase/actions";
 
 export default function LoginForm() {
   const router = useRouter();

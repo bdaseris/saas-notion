@@ -2,7 +2,7 @@
 
 import { createRouteHandlerClient } from "@supabase/auth-helpers-nextjs";
 import { cookies } from "next/headers";
-import type { SignUpFormSchemaType } from "@/lib/zod/forms";
+import type { SignUpFormSchemaType } from "@/libs/zod/forms";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL;
 
